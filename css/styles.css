@@ -82,3 +82,9 @@ nav ul li {
 footer {
   text-align: center;
 }
+
+footer p {
+  margin: 0 auto;
+  width: 30rem;
+  border-top: .1rem solid #000000;
+}
