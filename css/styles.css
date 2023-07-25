@@ -3,6 +3,7 @@
 html {
     font-size: 62.5%; /* 1rem = 10px*/
     box-sizing: border-box;
+    background-color: #c0bb4e;
 }
 
 ul {
@@ -36,6 +37,7 @@ ul li {
 header h1 {
   text-align: center;
   margin: .5rem 0 1rem;
+  font-weight:;
 }
 
 /* NAV */
