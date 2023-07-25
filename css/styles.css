@@ -16,6 +16,9 @@ ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
 /* logo */
 
 .contenedor-logo {
@@ -24,7 +27,7 @@ ul li {
   border-radius: 50%;
   overflow: hidden; /* para que la imagen no salga del contendor */
   box-shadow: -9px 2px 1px 0px #000000;
-  margin: 5rem auto 1rem;
+  margin: 4rem auto 1rem;
 }
 
 .contenedor-logo img {
@@ -38,7 +41,7 @@ ul li {
 header h1 {
   text-align: center;
   margin: .5rem 0 1rem;
-  font-weight:;
+  font-weight: 400;
 }
 
 /* NAV */
