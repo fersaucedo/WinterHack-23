@@ -17,11 +17,11 @@ ul li {
 /* logo */
 
 .contenedor-logo {
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
   overflow: hidden; /* para que la imagen no salga del contendor */
-  box-shadow: -9px 2px 1px 0px #212121;
+  box-shadow: -9px 2px 1px 0px #000000;
   margin: 5rem auto 1rem;
 }
 
@@ -48,3 +48,37 @@ nav ul li {
   padding-right: .5rem;
 }
 
+/* Descripcion */
+
+.descripcion {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.descripcion p {
+  width: 30rem;
+  margin: 0 auto;
+}
+
+/* links */
+
+.links {
+  height: 20rem;
+}
+.links ul li{
+ padding: 1rem;
+ margin: 1rem;
+}
+
+.links ul li a {
+  border: .1rem solid #000000;
+  font-size: 1.6rem;
+  padding: 1rem 2.5rem;
+  box-shadow: -5px 5px 0px 0px #000000;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+}
