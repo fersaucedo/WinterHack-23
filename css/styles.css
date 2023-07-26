@@ -74,14 +74,17 @@ nav ul li a svg:hover {
   font-weight: 300;
 }
 
+.descripcion p a, .descripcion p span{
+  font-weight: 500;
+}
+
 /* links */
 
 .links {
   height: 25rem;
 }
 .links ul li{
- padding: 2rem;
-
+ padding: 1rem;
 }
 
 .links ul li a {
@@ -91,6 +94,8 @@ nav ul li a svg:hover {
   box-shadow: -5px 5px 0px 0px #000000;
   background-color: #c7c9a9;
   color: #000000;
+  display: inline-block;
+  max-width: 23rem;
 }
 
 .links ul li a:hover {

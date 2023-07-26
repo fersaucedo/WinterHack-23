@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+
+<!-- Querido Jony:
+                Te cuento que, como no se me ocurría alguna forma de agregar más información en el footer y que no quedara saturado de contenido, me tomé el atrevimiento de incluir microformatos a los links del <nav>.
+                                        Fer. -->
+
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -82,7 +89,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li itemscope itemtype="https://schema.org/Person">
                     <a href="https://github.com/fersaucedo" itemprop="url" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                             <path
@@ -90,7 +97,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li itemscope itemtype="https://schema.org/Person">
                     <a href="mailto:frsauce@gmail.com" itemprop="email" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                             <path
@@ -107,9 +114,7 @@
         <!-- SSECCION DESCRIPCION -->
         <section class="descripcion">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aspernatur similique, blanditiis
-                possimus asperiores deserunt officiis architecto quae magnam, aut consequuntur, excepturi sint?
-                Exercitationem non facere nihil itaque delectus temporibus?
+                Hola! Me llamo Fernando y me encuentro cursando el <span>WinterHack</span> en <a href="https://www.codearock.com/" target="_blank">Codearock</a> para ampliar mis conocimientos en el ámbito del desarrollo web. 
             </p>
         </section>
 
@@ -117,18 +122,18 @@
         <section class="links">
             <ul>
                 <li>
-                    <a href="https://fersaucedo.github.io/Sunrise-Salon/">
+                    <a href="https://fersaucedo.github.io/Sunrise-Salon/" target="_blank">
                         Desarrollo Web: PROYECTO 1
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        link 2
+                    <a href="https://fersaucedo.github.io/Amarillo-Estudio-de-Interiores/" target="_blank">
+                        Desarrollo Web: PROYECTO 2 (Work in Progress)</a>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        link 3
+                    <a href="https://open.spotify.com/show/5uRPZ5r7bRkW29c5AkppXq?si=3141647403ed4e1b" target="_blank">
+                        Si estás fisura
                     </a>
                 </li>
             </ul>
@@ -138,7 +143,7 @@
     <!-- FOOTER -->
     <footer itemscope itemtype="https://schema.org/Person">
         <p>
-            ©2023 <span itemprop="name">Fernando Saucedo</span>.
+            ©2023 <span itemprop="name">Fernando Saucedo</span>, <span itemprop="addressRegion">Argentina</span>.
         </p>
     </footer>
 </body>
