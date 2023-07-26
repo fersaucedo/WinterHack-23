@@ -16,7 +16,7 @@ ul li {
   list-style: none;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ a {
   border-radius: 50%;
   overflow: hidden; /* para que la imagen no salga del contendor */
   box-shadow: -9px 2px 1px 0px #000000;
-  margin: 5rem auto 1rem;
+  margin: 5rem auto 3rem;
 }
 
 .contenedor-logo img {
@@ -41,37 +41,42 @@ a {
 
 header h1 {
   text-align: center;
-  margin: .5rem 0 1rem;
   font-weight: 400;
+  font-size: 2rem;
 }
 
 /* NAV */
 
+nav {
+  margin: 2rem;
+}
 nav ul li {
   display: inline;
-  padding-right: 1rem;
+  padding: 1rem;
 }
 
 /* Descripcion */
 
 .descripcion {
   text-align: center;
-  padding: 1rem;
+  margin: 4rem auto;
 }
 
 .descripcion p {
   width: 30rem;
   margin: 0 auto;
+  font-size: 1.6rem;
+  font-weight: 300;
 }
 
 /* links */
 
 .links {
-  height: 20rem;
+  height: 25rem;
 }
 .links ul li{
- padding: 1rem;
- margin: 1.5rem;
+ padding: 2rem;
+
 }
 
 .links ul li a {
@@ -85,12 +90,11 @@ nav ul li {
 
 footer {
   text-align: center;
-  position: sticky;
-  bottom: 0;
 }
 
 footer p {
   margin: 0 auto;
+  padding-top: .5rem;
   width: 30rem;
   border-top: .1rem solid #000000;
 }
