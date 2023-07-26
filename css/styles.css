@@ -19,6 +19,7 @@ ul li {
 a {
   text-decoration: none;
 }
+
 /* logo */
 
 .contenedor-logo {
@@ -27,7 +28,7 @@ a {
   border-radius: 50%;
   overflow: hidden; /* para que la imagen no salga del contendor */
   box-shadow: -9px 2px 1px 0px #000000;
-  margin: 4rem auto 1rem;
+  margin: 5rem auto 1rem;
 }
 
 .contenedor-logo img {
@@ -46,19 +47,16 @@ header h1 {
 
 /* NAV */
 
-nav ul {
-  margin: 0;
-}
 nav ul li {
   display: inline;
-  padding-right: .5rem;
+  padding-right: 1rem;
 }
 
 /* Descripcion */
 
 .descripcion {
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .descripcion p {
@@ -73,7 +71,7 @@ nav ul li {
 }
 .links ul li{
  padding: 1rem;
- margin: 1rem;
+ margin: 1.5rem;
 }
 
 .links ul li a {
@@ -87,6 +85,8 @@ nav ul li {
 
 footer {
   text-align: center;
+  position: sticky;
+  bottom: 0;
 }
 
 footer p {
